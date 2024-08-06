@@ -1,0 +1,16 @@
+ion-badge {
+    --background: rgba(213, 8, 8, 0.882);
+    --color: white;
+    --padding-end: 20px;
+    --padding-start: 20px;
+  }
+
+  ion-checkbox {
+    --size: 32px;
+    --checkbox-background-checked: #06e619;
+  }
+  
+  ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid #ec1515;
+  }

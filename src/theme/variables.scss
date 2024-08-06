@@ -1,2 +1,20 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-purper: #9e84dc;
+	--ion-color-purper-rgb: 158,132,220;
+	--ion-color-purper-contrast: #000000;
+	--ion-color-purper-contrast-rgb: 0,0,0;
+	--ion-color-purper-shade: #8b74c2;
+	--ion-color-purper-tint: #a890e0;
+}
+
+.ion-color-purper {
+	--ion-color-base: var(--ion-color-purper);
+	--ion-color-base-rgb: var(--ion-color-purper-rgb);
+	--ion-color-contrast: var(--ion-color-purper-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-purper-contrast-rgb);
+	--ion-color-shade: var(--ion-color-purper-shade);
+	--ion-color-tint: var(--ion-color-purper-tint);
+}
